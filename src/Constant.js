@@ -1,7 +1,9 @@
-export default Constant = {
+export default {
     ADD_NOTE: "ADD_NOTE",
     GET_NOTE: "GET_NOTE",
     GET_NOTES: "GET_NOTES",
     DELETE_NOTE: "DELETE_NOTE",
-    UPDATE_NOTE: "UPDATE_NOTE"
+    UPDATE_NOTE: "UPDATE_NOTE",
+    UPDATE_USER: "UPDATE_USER",
+    CURRENT_NOTE: "CURRENT_NOTE"
 }

@@ -1,16 +1,25 @@
 {
     "allNotes": [{
+            "_id": "1",
             "title": "Task 1",
             "date": "2020-03-03T01:02:00",
             "note": " note 1",
             "isViewed": false
         },
         {
-            "title": "Task 1",
+            "_id": "2",
+            "title": "Task 2",
             "date": "2020-03-03T01:02:00",
-            "note": " note 1",
-            "isViewed": false
+            "note": " note 2",
+            "isViewed": true
         }
     ],
+    "CurrentNote": {
+        "_id": "2",
+        "title": "Task 2",
+        "date": "2020-03-03T01:02:00",
+        "note": " note 2",
+        "isViewed": true
+    },
     "UserName": "Hassanoor"
 }
