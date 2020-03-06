@@ -1,13 +1,14 @@
-import { BrowserRouter  as Router, Route, hashi } from 'react-router-dom';
-import App from './components/App';
+import { BrowserRouter  as Router, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import React from 'react';
+import AppConnector from './reduxConnectors/App';
 
 
 export const Routes = () => 
 <Router>
     <Route path="/">
         <Route component={Nav}/>
-        <Route component={App}/>
+        <Route component={AppConnector}/>
     </Route>
+    <Route path="/" />
 </Router>

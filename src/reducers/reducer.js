@@ -33,10 +33,17 @@ export const allNotes = (state=[], action) => {
 }
 
 export const CurrentNote = (state ={}, action) => {
+    if (action.type == C.CURRENT_NOTE) {
+        return action.payload;
+    }
     return state; 
 }
 
 export const UserName = (state = "", action) => {
+    
+    if (action.type == C.UPDATE_USER) {
+        return action.payload;
+    }
     return state;
 }
 

@@ -4,14 +4,16 @@ import {Routes} from './routes'
 import appReducer from './reducers/reducer';
 import  {createStore}  from 'redux';
 import initial from './initialState.json';
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
+import C from './Constant';
 
 
 const store = createStore(appReducer, initial);
 console.log(store.getState());
 
 store.subscribe(()=>{
-    console.log(`store state : ${store.getState()}`)
+    console.log('store state :');
+    console.log(store.getState());
 });
 
 render(

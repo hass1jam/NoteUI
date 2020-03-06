@@ -1,8 +1,9 @@
 import React from 'react';
+import NoteList from './NoteList';
 
-const App = () =>
+const App = props =>
 <div>
-    <span>App component is active</span>
+    <NoteList notes={props.notes}/>
 </div>
 
 export default App;
