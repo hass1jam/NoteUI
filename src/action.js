@@ -8,6 +8,7 @@ export const AddUser = content => ({
 });
 
 
-export const getAllNotes = () =>({
-    type: C.GET_NOTES
-});
+export const getNoteWithId = id =>({ 
+    type: C.GET_NOTE,
+    id: id
+    });

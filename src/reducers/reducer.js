@@ -10,13 +10,6 @@ export const allNotes = (state=[], action) => {
                 ...state,
                 action.note
             ];
-        case C.GET_NOTE:
-            let note = state.filter((x)=> x._id == action.id)[0];
-            return note;
-        case C.GET_NOTES:
-            return [
-                ...state
-            ];
         case C.DELETE_NOTE:
             return state.filter((x)=> x._id != action.id);
         case C.UPDATE_NOTE:

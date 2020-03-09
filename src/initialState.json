@@ -3,14 +3,14 @@
             "_id": "1",
             "title": "Task 1",
             "date": "2020-03-03T01:02:00",
-            "note": " note 1",
+            "note": "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively",
             "isViewed": false
         },
         {
             "_id": "2",
             "title": "Task 2",
             "date": "2020-03-03T01:02:00",
-            "note": " note 2",
+            "note": "Note that each of these reducers is managing its own part of the global state. The state parameter is different for every reducer, and corresponds to the part of the state it manages",
             "isViewed": true
         }
     ],
